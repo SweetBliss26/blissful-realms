@@ -1,0 +1,61 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #0b0c2a, #1b1b3a);
+  color: #f0e6ff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #121232;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid gold;
+}
+
+header h1 {
+  color: gold;
+  font-family: 'Georgia', serif;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #c0aaff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: gold;
+}
+
+.realm-section {
+  padding: 40px 20px;
+  border-bottom: 2px solid #222;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.realm-section h2 {
+  color: #ddbfff;
+  font-size: 2rem;
+}
+
+.realm-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.realm-section li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+footer {
+  background-color: #0b0c2a;
+  color: #aaa;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+}
